@@ -4,6 +4,7 @@ const errorHandler = require("./middlewares/errorHandler");
 const connectDb = require("./config/dbConnection");
 const passport = require("./config/passport");
 const cors = require('cors');
+const path=require('path');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
