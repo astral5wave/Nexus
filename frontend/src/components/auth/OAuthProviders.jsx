@@ -4,7 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const OAuthProviders = ({setError}) => {
   const handleOAuth =  ({ provider }) => {
-    window.location.href = `${import.meta.env.VITE_BACKEND_URL}/api/auth/${provider}`;
+    window.location.href = `/api/auth/${provider}`;
   };
 
   return (
